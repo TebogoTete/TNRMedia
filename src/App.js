@@ -7,6 +7,7 @@ import Services from './components/UI/Services';
 import About from './components/UI/About';
 import Team from './components/UI/Team';
 import Blog1 from './components/UI/Blog1';
+import Testimonial from './components/UI/Testimonial';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <About />
     <Team />
     <Blog1 />
+    <Testimonial />
     </>
   );
 }
