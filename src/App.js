@@ -6,6 +6,8 @@ import Hero from './components/UI/Hero';
 import Services from './components/UI/Services';
 import About from './components/UI/About';
 import Team from './components/UI/Team';
+import Blog1 from './components/UI/Blog1';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
     <Services />
     <About />
     <Team />
+    <Blog1 />
     </>
   );
 }
