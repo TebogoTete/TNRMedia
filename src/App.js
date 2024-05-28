@@ -9,6 +9,7 @@ import Team from './components/UI/Team';
 import Blog1 from './components/UI/Blog1';
 import Testimonial from './components/UI/Testimonial';
 import Newsletter from './components/UI/Newsletter';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Blog1 />
     <Testimonial />
     <Newsletter />
+    <Footer />
     </>
   );
 }
