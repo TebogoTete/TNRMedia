@@ -100,3 +100,17 @@ section{
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+.light-theme .secondary_btn{
+  border: 1px solid var(--primary-color);
+  color: #000;
+  font-weight: 600;
+}
+
+.light-theme a{
+  font-weight: 500;
+}
+
+.light-theme .team_img{
+  background: rgb(203, 203, 203);
+}

@@ -62,3 +62,11 @@
     font-size: 0.9rem;
     font-weight: 400;
 }
+
+.light-theme .quick_links-item a{
+    font-weight: 500;
+}
+
+.light-theme .copyright{
+    color: rgb(81, 80, 80);
+}

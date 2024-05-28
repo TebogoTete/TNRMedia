@@ -38,6 +38,14 @@
  border: 1px solid var(--primary-color);
 }
 
+.light-theme .service_icon{
+    background-color: var(--primary-color);
+}
+
+.light-theme .service_icon i{
+    color: white;
+}
+
 .service_title{
  color: var(--primary-color);   
  font-size: 1.3rem;
