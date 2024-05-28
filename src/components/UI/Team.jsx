@@ -34,7 +34,7 @@ const teamMembers = [
 ]
 
 const Team = () => {
-  return <section className='our_team'>
+  return <section className='our_team' id='team'>
     <div className="container">
         <div className="team_content">
             <h6 className="subtitle">Our Team</h6>

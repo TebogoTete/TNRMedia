@@ -1,4 +1,6 @@
-import React from 'react'
+
+
+import React, {useRef, useEffect} from 'react';
 
 import "./header.css";
 
@@ -19,8 +21,8 @@ const nav_links =[
     },
 
     {
-        path:'#projects',
-        display:'Projects'
+        path:'#team',
+        display:'Team'
     },
 
     {
@@ -29,8 +31,27 @@ const nav_links =[
     },
 ];
 
-const Header = ({theme, toggleTheme}) => (
-    <header className='header'>
+const Header = ({theme, toggleTheme}) => {
+
+    const headerRef = useRef(null)
+
+    const headerFunc = ()=>{
+       if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) 
+       {
+        headerRef.current.classList.add('header_shrink')
+       } else{
+        headerRef.current.classList.remove('header_shrink')
+       }
+       }
+
+       useEffect(()=>{
+        window.addEventListener('scroll', headerFunc)
+
+        return ()=> window.removeEventListener('scroll', headerFunc)
+       },[]);
+
+    return(
+    <header className='header' ref={headerRef}>
         <div className="container">
             <div className="nav_wrapper">
                 <div className="logo">
@@ -68,5 +89,6 @@ const Header = ({theme, toggleTheme}) => (
         </div>
     </header>
 )
+}
 
 export default Header;

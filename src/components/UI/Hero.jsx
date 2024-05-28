@@ -6,7 +6,7 @@ import heroDarkImg from '../../images/hero-img.png'
 import lightImg from '../../images/light-hero-bg.jpg'
 
 const Hero = ({theme}) => {
-  return <section className='hero_section'>
+  return <section className='hero_section' id='home'>
     <div className="container">
         <div className="hero_wrapper">
             <div className="hero_content">
