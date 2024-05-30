@@ -70,3 +70,39 @@
 .light-theme .copyright{
     color: rgb(81, 80, 80);
 }
+
+@media only screen and (max-width:768px) {
+    .footer_logo{
+        width: 70%;
+    }
+
+    .footer_wrapper{
+        flex-wrap: wrap;
+        column-gap: 1.4rem !important;
+        row-gap: 1rem;
+    }
+
+    .footer_quick-links {
+        margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width:700px){
+        .footer_quick-links{
+            width: 45%;
+        }
+
+        .footer_logo{
+            width: 100%;
+        }
+
+        .footer_logo h2 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .footer_logo p {
+            font-size: 1rem;
+        }
+    }
+}
+

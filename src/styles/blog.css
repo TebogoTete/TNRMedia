@@ -66,3 +66,29 @@
     border: 1px solid var(--primary-color);
 }
 
+@media only screen and (max-width:768px) {
+    .blog_item{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .blog_item:nth-child(2) {
+       width: 50%; 
+    }
+
+    .blog_wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .blog_item, 
+    .blog_item:nth-child(2){
+        width: 100%;
+    }
+
+    .blog_item:nth-child(2) {
+        margin-top: 0;
+    }
+}
+

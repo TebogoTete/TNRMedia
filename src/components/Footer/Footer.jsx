@@ -56,7 +56,7 @@ const Footer = () => {
         <h2>TNRCreativeMedia</h2>
         <p className="decription">Grow with us</p>
 
-        <p className="small_text description">Lorem ipsum dolor sit amet, coat adipisci esse ipsa? Tempora odio omnis, dignissimos nesciunt enim ipsa deleniti nisi error sednsectetur adipisicing elit.</p>
+        <p className="small_text description">Lorem ipsum dolor sit amet, coat adipisci esse ipsa? Tempora odio omnis, dignissimos nesciunt enim ipsa.</p>
         </div> 
 
         <div className="footer_quick-links">

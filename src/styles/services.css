@@ -56,3 +56,34 @@
     font-size: 2rem;
     color: var(--primary-color);
 }
+
+@media only screen and (max-width:992px) {
+    .service_top-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .services_item-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .services_item {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .services_item {
+        width: 47%;
+    }
+
+    .service_title{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .services_item {
+        width: 100%;
+    }
+}

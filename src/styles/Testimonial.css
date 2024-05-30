@@ -42,3 +42,19 @@
     color: white;
     font-weight: 500;
 }
+
+@media only screen and (max-width:992px) {
+    .slider_content-top h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .slider_wrapper{
+        width: 90%;
+    }
+
+    .customer_name{
+        font-size: 1rem;
+    }
+}

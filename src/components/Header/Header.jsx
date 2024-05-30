@@ -35,6 +35,8 @@ const Header = ({theme, toggleTheme}) => {
 
     const headerRef = useRef(null)
 
+    const menuRef = useRef(null)
+
     const headerFunc = ()=>{
        if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) 
        {
@@ -50,6 +52,8 @@ const Header = ({theme, toggleTheme}) => {
         return ()=> window.removeEventListener('scroll', headerFunc)
        },[]);
 
+       const toggleMenu = ()=> menuRef.current.classList.toggle('menu_active');
+
     return(
     <header className='header' ref={headerRef}>
         <div className="container">
@@ -60,7 +64,7 @@ const Header = ({theme, toggleTheme}) => {
                 </div>
 
                 {/* ========== navigation ============== */}
-                <div className="navigation">
+                <div className="navigation" ref={menuRef} onClick={toggleMenu}>
                     <ul className="menu">
                         {nav_links.map((item, index)=>(
                             <li className="menu_item"><a href={item.path} className="menu_link">
@@ -85,6 +89,8 @@ const Header = ({theme, toggleTheme}) => {
                      
                    </span> 
                 </div>
+
+                <span className="mobile_menu" onClick={toggleMenu}><i class="ri-menu-line"></i></span>
             </div>
         </div>
     </header>
