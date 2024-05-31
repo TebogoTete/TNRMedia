@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/TNRMedia/static/css/main.d7d6aff7.css",
+    "main.js": "/TNRMedia/static/js/main.508a32cf.js",
+    "static/media/remixicon.svg?t=1708865856766": "/TNRMedia/static/media/remixicon.7735fab8dbf8ff78afe9.svg",
+    "static/media/light-hero-bg.jpg": "/TNRMedia/static/media/light-hero-bg.c9bce72c69f86814eba4.jpg",
+    "static/media/about-us.jpg": "/TNRMedia/static/media/about-us.9446fb0339368a482c2c.jpg",
+    "static/media/remixicon.eot?t=1708865856766": "/TNRMedia/static/media/remixicon.8542c1bb279bcd77063a.eot",
+    "static/media/remixicon.ttf?t=1708865856766": "/TNRMedia/static/media/remixicon.4c942de19d980993f612.ttf",
+    "static/media/ava-1.jpg": "/TNRMedia/static/media/ava-1.c185d7723fe40ec46830.jpg",
+    "static/media/ava-3.jpg": "/TNRMedia/static/media/ava-3.1442075049ece43143f2.jpg",
+    "static/media/ava-2.jpg": "/TNRMedia/static/media/ava-2.11e918c656d0c7851624.jpg",
+    "static/media/remixicon.woff?t=1708865856766": "/TNRMedia/static/media/remixicon.28ceff39ee3e17dc99db.woff",
+    "static/media/team-02.png": "/TNRMedia/static/media/team-02.04ead291f3a898cb5195.png",
+    "static/media/team-04.png": "/TNRMedia/static/media/team-04.d80e8c88d55bb0c99570.png",
+    "static/media/team-03.png": "/TNRMedia/static/media/team-03.6890a8fee90cc064c74d.png",
+    "static/media/remixicon.woff2?t=1708865856766": "/TNRMedia/static/media/remixicon.39f4def56d0e8712909a.woff2",
+    "static/media/video.png": "/TNRMedia/static/media/video.738b5aed181ea69d0960.png",
+    "static/media/hero-img.png": "/TNRMedia/static/media/hero-img.d253c017c57be8422f18.png",
+    "static/media/team-01.png": "/TNRMedia/static/media/team-01.b05696393eabab46199e.png",
+    "static/media/article.png": "/TNRMedia/static/media/article.1a0e78634738b71d43ca.png",
+    "static/media/case-study.png": "/TNRMedia/static/media/case-study.e2b9562a6c09692e288e.png",
+    "static/media/slick.svg": "/TNRMedia/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/TNRMedia/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/TNRMedia/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/TNRMedia/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/TNRMedia/index.html",
+    "main.d7d6aff7.css.map": "/TNRMedia/static/css/main.d7d6aff7.css.map",
+    "main.508a32cf.js.map": "/TNRMedia/static/js/main.508a32cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7d6aff7.css",
+    "static/js/main.508a32cf.js"
+  ]
+}
