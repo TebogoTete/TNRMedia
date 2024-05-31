@@ -92,7 +92,7 @@ section{
 .description{
   color: var(--small-text-color);
   line-height: 30px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .subtitle{
