@@ -59,7 +59,7 @@ const Header = ({theme, toggleTheme}) => {
         <div className="container">
             <div className="nav_wrapper">
                 <div className="logo">
-                    <h2>TNRCreativeMedia</h2>
+                    <h2>T&RCreativeMedia</h2>
                     
                 </div>
 

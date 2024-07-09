@@ -53,7 +53,7 @@ const Footer = () => {
   return <footer className="footer">
     <div className="footer_wrapper">
        <div className="footer_logo">
-        <h2>TNRCreativeMedia</h2>
+        <h2>T&RCreativeMedia</h2>
         <p className="decription">Grow with us</p>
 
         <p className="small_text description">Lorem ipsum dolor sit amet, coat adipisci esse ipsa? Tempora odio omnis, dignissimos nesciunt enim ipsa.</p>
